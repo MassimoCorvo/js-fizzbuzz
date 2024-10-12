@@ -29,8 +29,8 @@ for(let i = 1; i <= 100; i++){
     // Tutti gli altri numeri 
     else{
         //console.log(i);
-
-        print = i;
+        
+        print = i.toString();
     }
 
     numbers.innerHTML += "<tr><td>" + i + "</td><td>" + print + "</td></tr>";
