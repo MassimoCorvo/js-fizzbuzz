@@ -9,7 +9,7 @@ for(let i = 1; i <= 100; i++){
     if( (i%3) === 0 && (i%5) === 0){
         //console.log("FizzBuzzz");
 
-        numbers.innerHTML += "<div>FizzBuzz</div>";
+        numbers.innerHTML += "<tr><td>" + i + "</td><td>FizzBuzz</td></tr>";
 
 
     }
@@ -17,18 +17,18 @@ for(let i = 1; i <= 100; i++){
      else if ((i%3) === 0){
         //console.log("Fizz");
 
-        numbers.innerHTML += "<div>Fizz</div>";
+        numbers.innerHTML += "<tr><td>" + i + "</td><td>Fizz</td></tr>";
     }
     // Caso 3: multipli di 5
      else if ((i%5) === 0){
         //console.log("Buzz");
 
-        numbers.innerHTML += "<div>Buzz</div>";
+        numbers.innerHTML += "<tr><td>" + i + "</td><td>Buzz</td></tr>";
     }
     // Tutti gli altri numeri 
     else{
         //console.log(i);
 
-        numbers.innerHTML += "<div>" + i + "</div>";
+        numbers.innerHTML += "<tr><td>" + i + "</td><td>" + i + "</td></tr>";
     }
 }
