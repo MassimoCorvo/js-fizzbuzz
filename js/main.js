@@ -32,3 +32,6 @@ for(let i = 1; i <= 100; i++){
         numbers.innerHTML += "<tr><td>" + i + "</td><td>" + i + "</td></tr>";
     }
 }
+
+//Tabella a righe colorate alternate
+document.querySelector("table").classList.add("table-striped");
